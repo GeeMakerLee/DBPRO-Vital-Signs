@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="utf-8">
+   <title> Vital Signs Dashboard </title>
+   <link type="text/css" rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="http://at.alicdn.com/t/font_1309180_m0vigzfu7y.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <h1 class="vintage text-center">Vital Signs Monitor</h1>
+</head>
+
+<body class="background-color"> 
+<div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:130px">
+   <h5 class="w3-bar-item">Menu</h5>
+   <button class="w3-bar-item w3-button tablink  w3-red" onclick="openTab(event, 'Dashboard')">Dashboard</button>
+   <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'AlertHistory')">Alert History</button>
+   <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Settings')">Settings</button>
+</div>
+<div style="margin-left:130px">
+   <div class="col-lg-12"> <!--creat a 100% width container-->
+      <div class="row"><!--the subcontainer will be in a line direction created-->
+         <div class="col-lg-3"><!--creat a 25% width(of whole webpage) container-->
+            <div class="pad-0 box-background">
+               <div class="row">
+                  <div class="text-center col-lg-4">
+                     <img src="images.jpg" alt="patiant-img" class="avatar-80 img-fluid margin-image">
+                        <div class="text-center margin-pat-name">
+                           <p><b>Patient-A</b></p>
+                        </div>
+                  </div>
+                  <div class="col-lg-8">
+                     <ul class="doctoe-sedual d-flex align-items-center justify-content-between p-0">
+                        <li class="text-center">
+                        <p class="text-primary">Weight</p>
+                        <p>55kg</p>
+                        </li>
+                        <li class="text-center">
+                        <p class="text-primary">Height</p>
+                        <p>165cm</p>
+                        </li>
+                        <li class="text-center">
+                        <p class="text-primary">Age</p>
+                        <p>13</p>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="text-center date-box pad-0">
+                  <p>
+                     <h3>hh:mm:ss dd/mm/yyyy</h3>
+                  </p>
+               </div>
+               <ul class="doctoe-sedual d-flex align-items-center justify-content-between p-0 vital-sign-box-1">
+                  <li class="text-center">
+                  <p class="text-primary">HR</p>
+                  <p>00.00bpm</p>
+                  </li>
+                  <li class="text-center">
+                  <p class="text-primary">ABPSys</p>
+                  <p>00.00mmHg</p>
+                  </li>
+                  <li class="text-center">
+                  <p class="text-primary">ABPDias</p>
+                  <p>00.00mmHg</p>
+                  </li>
+                  <li class="text-center">
+                  <p class="text-primary">ABPMean</p>
+                  <p>00.00mmHg</p>
+                  </li>
+               </ul>
+               <hr>
+               <ul class="doctoe-sedual d-flex align-items-center justify-content-between p-0 vital-sign-box-2">
+                  <li class="text-center">
+                     <p class="text-primary">PULSE</p>
+                     <p>00.00bpm</p>
+                  </li>
+                  <li class="text-center">
+                     <p class="text-primary">RESP</p>
+                     <p>00.00pm</p>
+                  </li>
+                  <li class="text-center">
+                     <p class="text-primary">SpO2</p>
+                     <p>00.00%</p>
+                  </li>
+                  <li class="text-center">
+                     <p class="text-primary">CVP</p>
+                     <p>00.00mmHg</p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         
+      
+      </div>
+   </div>  
+</div>
+
+ 
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+/*------------------------General----------------------------*/
+
+.background-color {
+    background: #837d7f;
+}
+
+
+/*------------------------Div Format----------------------------*/
+
+.box-background {
+    background: #ffffff;
+    margin-top: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    -webkit-box-shadow: 0px 4px 5px 1px rgba(175, 175, 175, 0.1);
+    box-shadow: 0px 4px 5px 1px rgba(175, 175, 175, 0.1);
+}
+
+
+/*------------------------Patient Info Box----------------------------*/
+
+.patient-info h5 span {
+    font-size: 3px;
+}
+
+.margin-image {
+    margin-top: 10px;
+}
+
+.margin-pat-name {
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.avatar-80 {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 1.6rem;
+}
+
+
+/*------------------------Vital Signs Box----------------------------*/
+
+.date-box {
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.vital-sign-box-1 {
+    margin-top: -15px;
+}
+
+.vital-sign-box-2 {
+    margin-top: -0px;
+    margin-bottom: -10px;
+}
+
+
+/*------------------------List Formel----------------------------*/
+
+ul.doctoe-sedual li {
+    list-style: none;
+    flex: 1;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+ul.doctoe-sedual li:first-child {
+    border-left: none;
+}
+
+
+/*------------------------Text Location ----------------------------*/
+
+.text-center {
+    text-align: center!important
+}
+
+.distance-from-top {
+    margin-top: 1rem!important
+}
+
+.pad {
+    margin-top: 1px;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important
+}
+
+.justify-content-end {
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important
+}
+
+
+/*------------------------Text Color ----------------------------*/
+
+.text-primary {
+    color: #089bab !important;
+}
+
+.text-danger {
+    color: #f14336 !important;
+}
+
+.text-warning {
+    color: #fbc647 !important;
+}
+
+
+/*------------------------Grids----------------------------*/
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 1px;
+    margin-left: 1px
+}
+
+.col-lg-3 {
+    /*-ms-flex: 0 0 25%;
+    flex: 0 0 25%;*/
+    display: flex;
+    min-width: 25%;
+    max-width: 100%
+}
+
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+
+/* Style of Alert History. */
+
+body {
+    font: normal medium/1.4 sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(odd) {
+    background: #eee;
+}

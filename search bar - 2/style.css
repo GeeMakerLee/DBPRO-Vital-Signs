@@ -1,0 +1,243 @@
+/*------------------------General----------------------------*/
+.bod1{
+    /*background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);*/
+    /*background-image: url(" 2558.jpg");*/
+    /*background-size:cover;*/
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*------------------------Search Bar----------------------------*/
+.search-box{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    transform: translate( -50%,-50%);
+    background: #FD2C6B;
+    height: 40px;
+    border-radius: 30px; /*圆角边框*/
+    padding: 10px;
+}
+.search-box:hover> .search-text{
+    width: 400px;
+}
+.search-box:hover> .search-btn{
+    background: white;
+    color: #26087b;
+}
+.search-btn{
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:#FD2C6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    line-height:40px;
+    width:  0px;
+}
+/*------------------------Dropdown Box----------------------------*/
+.dropbt{ 
+    padding: 10px; /* 按钮内边框离 */ 
+    font-size: 16px; /* 按钮字体大小 */ 
+    background: #369; /* 按钮背景色 */
+    border: none; /* 去掉按钮边框 */ 
+    color: white; /* 按钮字的颜色 */ 
+    cursor: pointer; /* 鼠标在按钮上的小手标记 */ 
+}
+.dropbox a {
+    color: black; /* 链接字的颜色改成黑色 */ 
+    padding: 10px; /* 链接内边距 */ 
+    text-decoration: none; /* 去掉可恶的下划线 */ 
+    display: block; /* 链接独立成行 */ 
+}
+.dropbox{ 
+    display: none; /* 不显示 */
+    position: absolute; /* 盒子的位置为相对定位 */ 
+    background-color: #f9f9f9; /* 盒子的背景色 */ 
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2); /* 盒子的阴影，这里设置了右边4下边8 */ 
+}
+.drop:hover .dropbt{
+    background: #2f84d8; /* 鼠标在按钮上时，按钮背景色变 */ 
+} 
+.drop:hover .dropbox{ 
+    display: block; /* 鼠标在drop上时，dropbox菜单出现 */
+}
+.drop{
+    display: inline-block; /* 这是让盒子drop不占整行，去掉盒子天生占行的属性 */
+}
+.dropbox a:hover{
+    background: #cccdcf; /* 这里是鼠标移动菜单列表时改变背景色 */ 
+} 
+/*------------------------Patient Info----------------------------*/
+.iq-card { background: #ffffff; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-bottom: 0px; border: none; -webkit-box-shadow: 0px 4px 5px 1px rgb(255, 255, 255); box-shadow: 0px 4px 5px 1px rgb(255, 255, 255); }
+.iq-card .iq-card { box-shadow: none; }
+.iq-card .iq-card .iq-card-header { border: none; }
+.pad-0 { padding: 0px; }
+.iq-card .iq-card-header { padding: 0 20px; min-height: 60px; -ms-flex-align: center !important; align-items: center !important; border-bottom: 1px solid #eeeeee; border-radius: 25px 25px 0 0; -webkit-border-radius: 25px 25px 0 0; }
+.iq-card .iq-card-header .iq-header-title { display: inline-block; align-self: center !important; }
+.iq-card .iq-card-header .iq-header-title .card-title { margin-bottom: 0; }
+.iq-card-header-toolbar .nav-item a { color: #393c52; padding: 4px 12px; font-size: 14px; font-family: 'Nunito', sans-serif; }
+.iq-card-header-toolbar .dropdown-toggle i { font-size: 22px; line-height: normal; color: #393c52; }
+.iq-card-header-toolbar .dropdown-toggle::after { display: none; }
+.iq-card.iq-user-profile-block { margin-top: 10px; }/*distance from top*/
+/*.user-details-block .user-profile { margin-top: -85px; }*/
+.patient-info h5 span { font-size: 3px; }
+ul.doctoe-sedual li { list-style: none; flex: 1; border-left: 1px solid rgba(0, 0, 0, 0.1); }
+ul.doctoe-sedual li:first-child { border-left: none; }
+.pad{ margin-top: 1px;}
+/*------------------------Text Location ----------------------------*/
+.text-left {text-align: left!important}
+.text-right {text-align: right!important}
+.text-center {text-align: center!important}
+.distance-from-top {
+	margin-top: 1rem!important
+}
+.mb-0,
+.my-0 {
+	margin-bottom: 0!important
+}
+.d-flex {
+	display: -ms-flexbox!important;
+	display: flex!important
+}
+.align-items-center {
+	-ms-flex-align: center!important;
+	align-items: center!important
+}
+.justify-content-end {
+	-ms-flex-pack: end!important;
+	justify-content: flex-end!important
+}
+.justify-content-center {
+	-ms-flex-pack: center!important;
+	justify-content: center!important
+}
+.justify-content-between {
+	-ms-flex-pack: justify!important;
+	justify-content: space-between!important
+}
+.p-0 {
+	padding: 0!important
+}
+
+/*------------------------Text Color ----------------------------*/
+.text-primary { color: #089bab !important; }
+.text-danger { color: #f14336 !important; }
+.text-warning { color: #fbc647 !important; }
+
+/*------------------------Avatar----------------------------*/
+.img-fluid { max-width: 100%; height: auto; }
+.avatar-35 { height: 35px; width: 35px; line-height: 35px; font-size: 0.5rem; }
+.avatar-30 { height: 30px; width: 30px; line-height: 30px; font-size: 0.4rem; }
+.avatar-40 { height: 40px; width: 40px; line-height: 40px; font-size: 0.6rem; }
+.avatar-45 { height: 45px; width: 45px; line-height: 45px; font-size: 0.8rem; }
+.avatar-50 { height: 50px; width: 50px; line-height: 50px; font-size: 1rem; }
+.avatar-60 { height: 60px; width: 60px; line-height: 60px; font-size: 1.2rem; }
+.avatar-70 { height: 70px; width: 70px; line-height: 70px; font-size: 1.4rem; }
+.avatar-80 { height: 80px; width: 80px; line-height: 80px; font-size: 1.6rem; }
+.avatar-90 { height: 90px; width: 90px; line-height: 90px; font-size: 1.6rem; }
+.avatar-100 { height: 100px; width: 100px; line-height: 100px; font-size: 1.6rem; }
+.avatar-110 { height: 110px; width: 110px; line-height: 110px; font-size: 1.6rem; }
+.avatar-120 { height: 120px; width: 120px; line-height: 120px; font-size: 1.6rem; }
+.avatar-130 { height: 130px; width: 130px; line-height: 130px; font-size: 1.6rem; }
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: 1px;
+	margin-left: 1px
+}
+.box-background {
+    background: #ffffff;
+    margin-top: 85px;
+    -webkit-border-radius: 25px; 
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    margin-bottom: 10px; 
+    border: none; 
+    -webkit-box-shadow: 0px 4px 5px 1px rgba(175, 175, 175, 0.1); 
+    box-shadow: 0px 4px 5px 1px rgba(175, 175, 175, 0.1);
+}
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%
+}
+.col-lg-1-5 {
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%
+}
+.col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+.col-lg-2-5 {
+    -ms-flex: 0 0 23.333333%;
+    flex: 0 0 23.333333%;
+    max-width: 23.333333%;
+    
+}
+.col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    
+}
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%
+}
+.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%
+}
+.col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+.date-box{
+    margin-top: -30px;
+    margin-bottom: 10px;
+    
+}
+.vital-sign-box-1{
+    
+}
+.vital-sign-box-2{
+    
+    
+}
+.margin-image{
+    margin-top: 10px;
+}
+.margin-pat-name{
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
